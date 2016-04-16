@@ -1,0 +1,91 @@
+let
+	TDZ
+	for
+const
+	Object.freeze
+
+					**** EXERCISE 1 ****
+
+spread
+	array
+	args
+rest/gather param
+
+					**** EXERCISE 2 ****
+
+default params
+	lazy expressions
+	scope
+destructuring
+	array
+		more
+		fewer
+		rest/gather redux
+	object
+		more
+		fewer
+		renaming
+		repeating
+	non-declaration assignments
+	defaults
+		array element
+		object property
+		property/object dual default
+	nested
+	params
+	restructuring (mixin)
+
+					**** EXERCISE 3 ****
+
+object literals
+	concise properties
+	concise methods
+		anonymous
+		generators
+	get / set
+	computed property names
+		concise names
+		concise generators
+	__proto__
+	super
+template literals (interpolated string literals)
+	expressions
+		scope
+	tagged
+		strings
+		...values
+		strings.raw
+
+					**** EXERCISE 4 ****
+
+Symbol
+	primitive vs object
+	coercion
+	Symbol.for registry
+	Symbol.keyFor
+	getOwnPropertySymbols
+	WKS
+for..of
+	iterators / iterables
+	Arrays, Strings, Generators, Collections, Typed Arrays
+Iterators
+	custom
+	consumption
+		...
+		[ .. ] destructuring
+		key-value for..of loop
+Generators
+	* placement
+	yield
+		next / yield matching
+	yield *
+	return()
+	throw()
+	error handling
+		yield *
+
+					**** EXERCISE 5 ****
+
+
+
+
