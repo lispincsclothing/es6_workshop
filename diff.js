@@ -22,6 +22,8 @@ function foo() {
 }
 
 function foo(x) {
+  // closure and loops issue
+  // http://www.mennovanslooten.nl/blog/post/62
   // most people don't understand how closure works, face below problem with event handler
   // most common example of closure is module pattern
 
