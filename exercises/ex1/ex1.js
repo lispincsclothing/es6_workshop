@@ -1,6 +1,7 @@
-var x = 2, fns = [];
+const X = 2, fns = [];
 
-// are there any ways that I can remove ife, use block scoping or let
+// are there any ways that I can remove immeditely invoked function, use block scoping or let
+// http://benalman.com/news/2010/11/immediately-invoked-function-expression/
 
 // (function(){
 // 	var x = 5;
@@ -13,12 +14,12 @@ var x = 2, fns = [];
 // 	}
 // })();
 
-{let x = 5;
-	for (let i=0; i<x; i++) {
+{const X = 5;
+	for (let i=0; i<X; i++) {
 		// ..
-		fns[i]= function () {
+		fns.push(function () {
 			return i;
-		}
+		});
 	}
 }
 
