@@ -56,3 +56,13 @@ function foo() {
   // this is the temporal dead zone (period between when variable is used and then declared)
   let x;
 }
+
+// in original variable redeclartion - no such thing - so this legal
+var x;
+var x;
+var x;
+
+// but with let, redeclartion is now illegal
+let x;
+let x;
+// can't do it, illegal. 
