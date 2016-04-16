@@ -43,3 +43,16 @@ let(x=2){
 { let x = 2, y, z;
   // ..
 }
+
+// tdz (temporal dead zone) error
+// below is legal, although ill-advised, because of hoisting
+function foo() {
+  x=2;
+  var x;
+}
+// this is not legal
+function foo() {
+  x=2;
+  // this is the temporal dead zone (period between when variable is used and then declared)
+  let x;
+}
