@@ -1,4 +1,5 @@
-const X = 2, fns = [];
+const X = 2
+var fns = [];
 
 // are there any ways that I can remove immeditely invoked function, use block scoping or let
 // http://benalman.com/news/2010/11/immediately-invoked-function-expression/
@@ -22,7 +23,6 @@ const X = 2, fns = [];
 		});
 	}
 }
-
 
 console.log(
 	(x * 2) === fns[x*2]()
